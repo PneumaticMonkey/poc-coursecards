@@ -1,0 +1,179 @@
+{
+  "data": {
+    "nodeQuery": {
+      "count": 29,
+      "entities": [
+        {
+          "entityId": "676",
+          "fieldHeroImage": {
+            "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/robotics-software-engineer_course.jpg"
+          },
+          "fieldShowInCatalogue": true,
+          "fieldCourseTimeCommitment": "4 months (15 hours per week)",
+          "entityPublished": false,
+          "fieldCourseTitle": "Robotics Software Engineer",
+          "entityUrl": {
+            "path": "https://futureskills.rmitonline.docksal/robotics-software-engineer"
+          },
+          "fieldIsNewCourse": true,
+          "fieldCourseStartDateV2": {
+            "date": "2019-02-18 12:00:00 UTC"
+          }
+        },
+        {
+          "entityId": "766",
+          "fieldHeroImage": {
+            "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/app-development-with-swift_course.jpg"
+          },
+          "fieldShowInCatalogue": true,
+          "fieldCourseTimeCommitment": "4 weeks (20-30 hours)",
+          "entityPublished": true,
+          "fieldCourseTitle": "App Development with Swift Foundations",
+          "entityUrl": {
+            "path": "https://futureskills.rmitonline.docksal/app-development-with-swift-foundations"
+          },
+          "fieldIsNewCourse": false,
+          "fieldCourseStartDateV2": {
+            "date": "2019-05-06 12:00:00 UTC"
+          }
+        },
+        {
+          "entityId": "611",
+          "fieldHeroImage": {
+            "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/AI_in_Marketing_Hero_2560px.jpg"
+          },
+          "fieldShowInCatalogue": true,
+          "fieldCourseTimeCommitment": "6 weeks (5-8 hours per week)",
+          "entityPublished": true,
+          "fieldCourseTitle": "Artificial Intelligence in Marketing ",
+          "entityUrl": {
+            "path": "https://futureskills.rmitonline.docksal/ai-and-emerging-technologies-for-strategic-marketing"
+          },
+          "fieldIsNewCourse": false,
+          "fieldCourseStartDateV2": {
+            "date": "2019-05-06 12:00:00 UTC"
+          }
+        },
+        {
+          "entityId": "731",
+          "fieldHeroImage": {
+            "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/crm-professional-salesforce_course.jpg"
+          },
+          "fieldShowInCatalogue": true,
+          "fieldCourseTimeCommitment": "6 weeks",
+          "entityPublished": true,
+          "fieldCourseTitle": "CRM Professional with Salesforce",
+          "entityUrl": {
+            "path": "https://futureskills.rmitonline.docksal/crm-professional-with-salesforce"
+          },
+          "fieldIsNewCourse": true,
+          "fieldCourseStartDateV2": {
+            "date": "2019-05-06 12:00:00 UTC"
+          }
+        },
+        {
+          "entityId": "651",
+          "fieldHeroImage": {
+            "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/designing-developing-vr-ar-applications_course.jpg"
+          },
+          "fieldShowInCatalogue": true,
+          "fieldCourseTimeCommitment": "6 weeks",
+          "entityPublished": true,
+          "fieldCourseTitle": "Designing and Developing VR and AR Applications",
+          "entityUrl": {
+            "path": "https://futureskills.rmitonline.docksal/developing-and-designing-vr-and-ar-applications"
+          },
+          "fieldIsNewCourse": false,
+          "fieldCourseStartDateV2": {
+            "date": "2019-07-01 12:00:00 UTC"
+          }
+        },
+        {
+          "entityId": "596",
+          "fieldHeroImage": {
+            "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/designing-blockchain-solutions_course.jpg"
+          },
+          "fieldShowInCatalogue": true,
+          "fieldCourseTimeCommitment": "6 weeks",
+          "entityPublished": true,
+          "fieldCourseTitle": "Designing Blockchain Solutions",
+          "entityUrl": {
+            "path": "https://futureskills.rmitonline.docksal/designing-blockchain-solutions"
+          },
+          "fieldIsNewCourse": false,
+          "fieldCourseStartDateV2": {
+            "date": "2019-05-20 12:00:00 UTC"
+          }
+        },
+        {
+          "entityId": "606",
+          "fieldHeroImage": {
+            "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/developing-blockchain-strategy_course.jpg"
+          },
+          "fieldShowInCatalogue": true,
+          "fieldCourseTimeCommitment": "8 weeks",
+          "entityPublished": true,
+          "fieldCourseTitle": "Developing Blockchain Strategy",
+          "entityUrl": {
+            "path": "https://futureskills.rmitonline.docksal/blockchain"
+          },
+          "fieldIsNewCourse": false,
+          "fieldCourseStartDateV2": {
+            "date": "2019-05-20 12:00:00 UTC"
+          }
+        },
+        {
+          "entityId": "631",
+          "fieldHeroImage": {
+            "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/developing-vr-ar-strategy_course_1.jpg"
+          },
+          "fieldShowInCatalogue": true,
+          "fieldCourseTimeCommitment": "6 weeks",
+          "entityPublished": true,
+          "fieldCourseTitle": "Developing VR and AR Strategy ",
+          "entityUrl": {
+            "path": "https://futureskills.rmitonline.docksal/developing-vr-and-ar-strategy"
+          },
+          "fieldIsNewCourse": false,
+          "fieldCourseStartDateV2": {
+            "date": "2019-07-15 12:00:00 UTC"
+          }
+        },
+        {
+          "entityId": "811",
+          "fieldHeroImage": {
+            "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/Intro_to_Programming01.jpg"
+          },
+          "fieldShowInCatalogue": true,
+          "fieldCourseTimeCommitment": "16 weeks",
+          "entityPublished": true,
+          "fieldCourseTitle": "Introduction to Programming",
+          "entityUrl": {
+            "path": "https://futureskills.rmitonline.docksal/introduction-to-programming"
+          },
+          "fieldIsNewCourse": true,
+          "fieldCourseStartDateV2": {
+            "date": "2019-05-06 12:00:00 UTC"
+          }
+        },
+        {
+          "entityId": "661",
+          "fieldHeroImage": {
+            "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/marketing-analytics-insights_course.jpg"
+          },
+          "fieldShowInCatalogue": true,
+          "fieldCourseTimeCommitment": "6 weeks (5-8 hours per week)",
+          "entityPublished": true,
+          "fieldCourseTitle": "Marketing Analytics and Insights",
+          "entityUrl": {
+            "path": "https://futureskills.rmitonline.docksal/marketing-analytics-and-insights"
+          },
+          "fieldIsNewCourse": false,
+          "fieldCourseStartDateV2": {
+            "date": "2019-07-15 12:00:00 UTC"
+          }
+        }
+      ]
+    }
+  }
+}
