@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import Card from '~/components/course_card.vue'
+  import Card from '~/components/CourseCard.vue'
 
   export default {
     components: {

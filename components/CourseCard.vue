@@ -6,19 +6,17 @@
 
       <div class="v-card-content">
         <v-card-title>
-          <div>
-            <div class="course__type">Course type here</div>
-            <div class="headline course__type-title">{{course.fieldCourseTitle}}</div>
-          </div>
+          <span class="course__type">Course type here</span>
+          <span class="headline course__type-title">{{course.fieldCourseTitle}}</span>
         </v-card-title>
 
         <v-card-actions>
           <v-flex xs12 sm6>
-            <div class="course__info-title">COURSE LENGTH</div>
+            <span class="course__info-title">COURSE LENGTH</span>
             <span class="course__info-length">{{stripWords(course.fieldCourseTimeCommitment, 2)}}</span>
           </v-flex>
           <v-flex xs12 sm6>
-            <div class="course__info-title">NEXT START</div>
+            <span class="course__info-title">NEXT START</span>
             <span class="course__info-start">{{course.fieldCourseStartDateV2.date | moment("DD MMM YYYY")}}</span>
           </v-flex>
         </v-card-actions>
@@ -60,11 +58,13 @@
     }
     .course {
       &__type {
+        display: block;
         font-weight: 500;
         font-size: 12px;
         color: #888888;
         text-transform: uppercase;
         &-title {
+          display: block;
           font-weight: 500;
           font-size: 16px;
           color: #121212;
@@ -72,9 +72,16 @@
       }
       &__info {
         &-title {
+          display: block;
           color: #888888;
           font-size: 12px;
           padding-bottom: 4px;
+        }
+        &-length {
+          display: block;
+        }
+        &-start {
+          display: block;
         }
       }
     }
