@@ -5,6 +5,7 @@
       "entities": [
         {
           "entityId": "676",
+          "stream": "Future Skills Short Course",
           "fieldHeroImage": {
             "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/robotics-software-engineer_course.jpg"
           },
@@ -22,6 +23,7 @@
         },
         {
           "entityId": "766",
+          "stream": "Future Skills Short Course",
           "fieldHeroImage": {
             "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/app-development-with-swift_course.jpg"
           },
@@ -39,6 +41,7 @@
         },
         {
           "entityId": "611",
+          "stream": "Postgraduate",
           "fieldHeroImage": {
             "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/AI_in_Marketing_Hero_2560px.jpg"
           },
@@ -56,6 +59,7 @@
         },
         {
           "entityId": "731",
+          "stream": "Undergraduate",
           "fieldHeroImage": {
             "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/crm-professional-salesforce_course.jpg"
           },
@@ -73,6 +77,7 @@
         },
         {
           "entityId": "651",
+          "stream": "TEST FOR UNKNOW STREAM",
           "fieldHeroImage": {
             "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/designing-developing-vr-ar-applications_course.jpg"
           },
@@ -90,6 +95,7 @@
         },
         {
           "entityId": "596",
+          "stream": "Future Skills Short Course",
           "fieldHeroImage": {
             "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/designing-blockchain-solutions_course.jpg"
           },
@@ -107,6 +113,7 @@
         },
         {
           "entityId": "606",
+          "stream": "Future Skills Short Course",
           "fieldHeroImage": {
             "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/developing-blockchain-strategy_course.jpg"
           },
@@ -124,6 +131,7 @@
         },
         {
           "entityId": "631",
+          "stream": "Future Skills Short Course",
           "fieldHeroImage": {
             "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/developing-vr-ar-strategy_course_1.jpg"
           },
@@ -141,6 +149,7 @@
         },
         {
           "entityId": "811",
+          "stream": "Future Skills Short Course",
           "fieldHeroImage": {
             "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/Intro_to_Programming01.jpg"
           },
@@ -158,6 +167,7 @@
         },
         {
           "entityId": "661",
+          "stream": "Future Skills Short Course",
           "fieldHeroImage": {
             "url": "https://online.rmit.edu.au/sites/default/files/course-hero-images/marketing-analytics-insights_course.jpg"
           },

@@ -1,12 +1,12 @@
 <template>
   <v-flex xs12 sm6 lg4>
-    <v-card class="course course__stream-fs">
+    <v-card :class="stream(course.stream)" class="course">
       <v-img :src="course.fieldHeroImage.url">
       </v-img>
 
       <div class="v-card-content">
         <v-card-title>
-          <span class="course__type">Course type here</span>
+          <span class="course__type">{{course.stream}}</span>
           <span class="headline course__type-title">{{course.fieldCourseTitle}}</span>
         </v-card-title>
 
@@ -36,6 +36,22 @@
     methods: {
       stripWords(string, spaceClip) {
         return string.split(" ").splice(0,spaceClip).join(" ");
+      },
+      stream(stream) {
+        var s = "course__stream-"
+        if (stream.toLowerCase() == "future skills short course") {
+          s = s + "fs";
+        }
+        else if (stream.toLowerCase() == "postgraduate") {
+          s = s + "pg";
+        }
+        else if (stream.toLowerCase() == "undergraduate") {
+          s = s + "ug";
+        }
+        else {
+          s = "";
+        }
+        return s;
       }
     }
   }
@@ -43,6 +59,9 @@
 
 <style lang="scss">
 .v-card {
+  &.v-sheet {
+    border-radius: 5px;
+  }
   &.course {
     .v-image {
       max-height: 174px;
@@ -55,6 +74,16 @@
           border-color: #50d2ff;
         }
       }
+      &-pg {
+        .v-image {
+          border-color: #d6031d;
+        }
+      }
+      &-ug {
+        .v-image {
+          border-color: #fbcf00;
+        }
+      }
     }
     .course {
       &__type {
@@ -63,6 +92,7 @@
         font-size: 12px;
         color: #888888;
         text-transform: uppercase;
+        padding-bottom: 5px;
         &-title {
           display: block;
           font-weight: 500;
@@ -95,6 +125,13 @@
   &__actions {
     border-top: 1px solid #e2e2e2;
     padding: 16px 0 0;
+    .course & {
+      .container & {
+        .flex {
+          padding: 0;
+        }
+      }
+    }
   }
 }
 </style>
