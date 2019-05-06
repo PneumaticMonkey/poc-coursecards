@@ -1,7 +1,7 @@
 <template>
   <v-container grid-list-md>
     <v-layout row wrap>
-      <Card :course="course" v-for="course in data.nodeQuery.entities" v-if="course.fieldShowInCatalogue" v-bind:key="course.entityId" />
+      <Card :course="course" v-for="course in data.nodeQuery.entities" v-if="course.fieldShowInCatalogue && course.entityPublished" v-bind:key="course.entityId" />
     </v-layout>
   </v-container>
 </template>
