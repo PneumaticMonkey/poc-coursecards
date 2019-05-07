@@ -1,6 +1,7 @@
 <template>
   <div>
     <Banner />
+    <CardFilters />
     <v-container grid-list-lg>
       <v-layout row wrap>
         <Card :course="course" v-for="course in data.nodeQuery.entities" v-if="course.fieldShowInCatalogue && course.entityPublished" v-bind:key="course.entityId" />
@@ -11,11 +12,13 @@
 
 <script>
   import Banner from '~/components/Banner.vue'
+  import CardFilters from '~/components/CardFilters.vue'
   import Card from '~/components/CourseCard.vue'
 
   export default {
     components: {
       Banner,
+      CardFilters,
       Card
     },
     async asyncData ({ app }) {

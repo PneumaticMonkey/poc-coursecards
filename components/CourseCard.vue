@@ -12,11 +12,11 @@
 
         <v-card-actions>
           <v-flex xs12 sm6>
-            <span class="course__info-title">COURSE LENGTH</span>
+            <span class="course__info-title">COURSE DURATION</span>
             <span class="course__info-length">{{stripWords(course.fieldCourseTimeCommitment)}}</span>
           </v-flex>
           <v-flex xs12 sm6>
-            <span class="course__info-title">NEXT START</span>
+            <span class="course__info-title">NEXT INTAKE</span>
             <span class="course__info-start">{{course.fieldCourseStartDateV2.date | moment("DD MMM YYYY")}}</span>
           </v-flex>
         </v-card-actions>

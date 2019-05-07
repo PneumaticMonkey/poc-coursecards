@@ -3,9 +3,9 @@
     <Ribbon />
     <v-container fill-height>
       <v-layout align-center>
-        <v-flex text-xs-center>
-          <h2 class="display-3">Courses</h2>
-          <v-flex xs12>
+        <v-flex>
+          <h2 class="display-3 text-xs-center">Courses &amp; Degrees</h2>
+          <v-flex xs12 sm8 md6 offset-sm2 offset-md3>
             <BannerSearchForm />
           </v-flex>
         </v-flex>

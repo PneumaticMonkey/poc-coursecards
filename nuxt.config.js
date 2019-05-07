@@ -15,7 +15,8 @@ export default {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'}
     ]
   },
 
@@ -27,7 +28,9 @@ export default {
   /*
   ** Global CSS
   */
-  css: ['~/assets/style/app.styl'],
+  css: [
+    '~/assets/style/app.styl'
+  ],
 
   /*
   ** Plugins to load before mounting the App
@@ -38,9 +41,17 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/style-resources',
     '@nuxtjs/axios',
     '@nuxtjs/pwa'
   ],
+
+  styleResources: {
+    scss: [
+        '~/static/scss/variables.scss',
+        '~/static/scss/main.scss'
+    ]
+  },
 
   /*
   ** Build configuration
