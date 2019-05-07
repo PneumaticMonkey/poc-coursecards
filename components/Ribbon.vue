@@ -19,14 +19,13 @@
   &__content {
     min-height: 48px;
     background-color: #00dcb4;
-    position: absolute;
+    // position: absolute;
     top: 0;
     left: 0;
     justify-content: center;
     align-items: center;
     padding: 0 24px;
     width: 100%;
-    line-height: 48px;
     &:after {
       display: block;
       content: '';

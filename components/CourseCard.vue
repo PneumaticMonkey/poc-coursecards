@@ -1,26 +1,22 @@
 <template>
   <v-flex xs12 sm6 lg4>
-    <v-card :class="stream(course.stream)" class="course">
+    <v-card :class="stream(course.stream)" class="course fill-height">
       <v-img :src="course.fieldHeroImage.url">
       </v-img>
-
-      <div class="v-card-content">
-        <v-card-title>
-          <span class="course__type">{{course.stream}}</span>
-          <span class="headline course__type-title">{{course.fieldCourseTitle}}</span>
-        </v-card-title>
-
-        <v-card-actions>
-          <v-flex xs12 sm6>
-            <span class="course__info-title">COURSE DURATION</span>
-            <span class="course__info-length">{{stripWords(course.fieldCourseTimeCommitment)}}</span>
-          </v-flex>
-          <v-flex xs12 sm6>
-            <span class="course__info-title">NEXT INTAKE</span>
-            <span class="course__info-start">{{course.fieldCourseStartDateV2.date | moment("DD MMM YYYY")}}</span>
-          </v-flex>
-        </v-card-actions>
-      </div>
+      <v-card-text class="grow">
+        <span class="course__type">{{course.stream}}</span>
+        <span class="course__type-title">{{course.fieldCourseTitle}}</span>
+      </v-card-text>
+      <v-card-actions>
+        <v-flex xs12 sm6>
+          <span class="course__info-title">COURSE DURATION</span>
+          <span class="course__info-length">{{stripWords(course.fieldCourseTimeCommitment)}}</span>
+        </v-flex>
+        <v-flex xs12 sm6>
+          <span class="course__info-title">NEXT INTAKE</span>
+          <span class="course__info-start">{{course.fieldCourseStartDateV2.date | moment("DD MMM YYYY")}}</span>
+        </v-flex>
+      </v-card-actions>
     </v-card>
   </v-flex>
 </template>
@@ -59,6 +55,8 @@
 
 <style lang="scss">
 .v-card {
+  display: flex;
+  flex-direction: column;
   &.v-sheet {
     border-radius: 5px;
   }
@@ -66,22 +64,22 @@
     .v-image {
       max-height: 174px;
       overflow: hidden;
-      border-bottom: 8px solid #e2e2e2;
+      border-bottom: 8px solid $mid-grey;
     }
     &__stream {
       &-fs {
         .v-image {
-          border-color: #50d2ff;
+          border-color: $bright-cyan;
         }
       }
       &-pg {
         .v-image {
-          border-color: #d6031d;
+          border-color: $red;
         }
       }
       &-ug {
         .v-image {
-          border-color: #fbcf00;
+          border-color: $marigold;
         }
       }
     }
@@ -91,7 +89,7 @@
         width: 100%;
         font-weight: 500;
         font-size: 12px;
-        color: #888888;
+        color: $black-18-05;
         text-transform: uppercase;
         padding-bottom: 5px;
         &-title {
@@ -99,13 +97,14 @@
           width: 100%;
           font-weight: 500;
           font-size: 16px;
-          color: #121212;
+          line-height: 22px;
+          color: $dark-grey;
         }
       }
       &__info {
         &-title {
           display: block;
-          color: #888888;
+          color: $black-18-05;
           font-size: 12px;
           padding-bottom: 4px;
         }
@@ -118,15 +117,15 @@
       }
     }
   }
-  &-content {
+  &-text {
     padding: 14px 17px 17px;
   }
   &__title {
     padding: 0 0 16px;
   }
   &__actions {
-    border-top: 1px solid #e2e2e2;
-    padding: 16px 0 0;
+    border-top: 1px solid $mid-grey;
+    padding: 16px 17px 17px;
     .course & {
       .container & {
         .flex {

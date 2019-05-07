@@ -19,6 +19,10 @@
   .container {
     &.course-filters {
       .v-btn {
+        font-size: 12px;
+        @media (min-width: $lg-min) {
+          font-size: 16px;
+        }
         &--active {
           background-color: $greyish-brown-1 !important;
           color: $white;
