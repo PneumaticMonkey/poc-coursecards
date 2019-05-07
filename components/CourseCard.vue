@@ -125,7 +125,8 @@
   }
   &__actions {
     border-top: 1px solid $mid-grey;
-    padding: 16px 17px 17px;
+    padding: 16px 0 17px;
+    margin: 0 17px;
     .course & {
       .container & {
         .flex {
