@@ -13,7 +13,7 @@
         <v-card-actions>
           <v-flex xs12 sm6>
             <span class="course__info-title">COURSE LENGTH</span>
-            <span class="course__info-length">{{stripWords(course.fieldCourseTimeCommitment, 2)}}</span>
+            <span class="course__info-length">{{stripWords(course.fieldCourseTimeCommitment)}}</span>
           </v-flex>
           <v-flex xs12 sm6>
             <span class="course__info-title">NEXT START</span>
@@ -34,8 +34,8 @@
   export default {
     props: ['course'],
     methods: {
-      stripWords(string, spaceClip) {
-        return string.split(" ").splice(0,spaceClip).join(" ");
+      stripWords(string) {
+        return string.replace(/ \([\s\S]*?\)/g, '');
       },
       stream(stream) {
         var s = "course__stream-"
@@ -88,6 +88,7 @@
     .course {
       &__type {
         display: block;
+        width: 100%;
         font-weight: 500;
         font-size: 12px;
         color: #888888;
@@ -95,6 +96,7 @@
         padding-bottom: 5px;
         &-title {
           display: block;
+          width: 100%;
           font-weight: 500;
           font-size: 16px;
           color: #121212;
