@@ -13,6 +13,7 @@
           "fieldCourseTimeCommitment": "4 months (15 hours per week)",
           "entityPublished": false,
           "fieldCourseTitle": "Robotics Software Engineer",
+          "fieldCourseDetails": "",
           "entityUrl": {
             "path": "https://futureskills.rmitonline.docksal/robotics-software-engineer"
           },
@@ -31,8 +32,10 @@
           "fieldCourseTimeCommitment": "4 weeks (20-30 hours)",
           "entityPublished": true,
           "fieldCourseTitle": "App Development with Swift Foundations",
+          "fieldCourseDetails": "",
           "entityUrl": {
-            "path": "https://futureskills.rmitonline.docksal/app-development-with-swift-foundations"
+            "path": "",
+            "path-OLD": "https://futureskills.rmitonline.docksal/app-development-with-swift-foundations"
           },
           "fieldIsNewCourse": false,
           "fieldCourseStartDateV2": {
@@ -49,8 +52,10 @@
           "fieldCourseTimeCommitment": "6 weeks (5-8 hours per week)",
           "entityPublished": true,
           "fieldCourseTitle": "Artificial Intelligence in Marketing ",
+          "fieldCourseDetails": "Understand the fundamentals and impact of blockchain, and work with leading industry experts to build a real-world strategy for your business.",
           "entityUrl": {
-            "path": "https://futureskills.rmitonline.docksal/ai-and-emerging-technologies-for-strategic-marketing"
+            "path": "",
+            "path-OLD": "https://futureskills.rmitonline.docksal/ai-and-emerging-technologies-for-strategic-marketing"
           },
           "fieldIsNewCourse": false,
           "fieldCourseStartDateV2": {
@@ -67,6 +72,7 @@
           "fieldCourseTimeCommitment": "6 weeks",
           "entityPublished": true,
           "fieldCourseTitle": "CRM Professional with Salesforce",
+          "fieldCourseDetails": "Understand the fundamentals and impact of blockchain, and work with leading industry experts to build a real-world strategy for your business.",
           "entityUrl": {
             "path": "https://futureskills.rmitonline.docksal/crm-professional-with-salesforce"
           },
@@ -85,6 +91,7 @@
           "fieldCourseTimeCommitment": "6 weeks",
           "entityPublished": true,
           "fieldCourseTitle": "Designing and Developing VR and AR Applications",
+          "fieldCourseDetails": "",
           "entityUrl": {
             "path": "https://futureskills.rmitonline.docksal/developing-and-designing-vr-and-ar-applications"
           },
@@ -103,6 +110,7 @@
           "fieldCourseTimeCommitment": "6 weeks",
           "entityPublished": true,
           "fieldCourseTitle": "Designing Blockchain Solutions",
+          "fieldCourseDetails": "",
           "entityUrl": {
             "path": "https://futureskills.rmitonline.docksal/designing-blockchain-solutions"
           },
@@ -121,6 +129,7 @@
           "fieldCourseTimeCommitment": "8 weeks",
           "entityPublished": true,
           "fieldCourseTitle": "Developing Blockchain Strategy",
+          "fieldCourseDetails": "",
           "entityUrl": {
             "path": "https://futureskills.rmitonline.docksal/blockchain"
           },
@@ -139,6 +148,7 @@
           "fieldCourseTimeCommitment": "6 weeks",
           "entityPublished": true,
           "fieldCourseTitle": "Developing VR and AR Strategy ",
+          "fieldCourseDetails": "",
           "entityUrl": {
             "path": "https://futureskills.rmitonline.docksal/developing-vr-and-ar-strategy"
           },
@@ -157,6 +167,7 @@
           "fieldCourseTimeCommitment": "16 weeks",
           "entityPublished": true,
           "fieldCourseTitle": "Introduction to Programming",
+          "fieldCourseDetails": "",
           "entityUrl": {
             "path": "https://futureskills.rmitonline.docksal/introduction-to-programming"
           },
@@ -175,6 +186,7 @@
           "fieldCourseTimeCommitment": "6 weeks (5-8 hours per week)",
           "entityPublished": true,
           "fieldCourseTitle": "Marketing Analytics and Insights",
+          "fieldCourseDetails": "",
           "entityUrl": {
             "path": "https://futureskills.rmitonline.docksal/marketing-analytics-and-insights"
           },

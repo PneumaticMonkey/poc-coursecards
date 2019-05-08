@@ -4,12 +4,46 @@
       <v-img :src="course.fieldHeroImage.url">
       </v-img>
       <v-card-text class="grow">
+        <v-fab-transition>
+          <v-btn
+            v-show="!hidden"
+            fab
+            depressed
+            flat
+            small
+            absolute
+            right
+            @click="hidden = !hidden"
+            class="course__btn-favourite"
+          >
+            <v-icon>favorite_border</v-icon>
+          </v-btn>
+        </v-fab-transition>
+        <v-fab-transition>
+          <v-btn
+            v-show="hidden"
+            fab
+            depressed
+            flat
+            small
+            absolute
+            right
+            @click="hidden = !hidden"
+            class="course__btn-favourite"
+          >
+            <v-icon>favorite</v-icon>
+          </v-btn>
+        </v-fab-transition>
         <span class="course__type">{{course.stream}}</span>
         <span class="course__type-title">{{course.fieldCourseTitle}}</span>
+        <span v-if="course.fieldCourseDetails" class="course__details">{{course.fieldCourseDetails}}</span>
       </v-card-text>
+      <v-card-link>
+        <v-btn v-if="course.entityUrl.path" flat small nuxt :href="course.entityUrl.path" class="course__link-details">View details</v-btn>
+      </v-card-link>
       <v-card-actions>
         <v-flex xs12 sm6>
-          <span class="course__info-title">COURSE DURATION</span>
+          <span class="course__info-title">DURATION</span>
           <span class="course__info-length">{{stripWords(course.fieldCourseTimeCommitment)}}</span>
         </v-flex>
         <v-flex xs12 sm6>
@@ -28,6 +62,9 @@
   Vue.use(moment)
 
   export default {
+    data: () => ({
+      hidden: false
+    }),
     props: ['course'],
     methods: {
       stripWords(string) {
@@ -54,11 +91,19 @@
 </script>
 
 <style lang="scss">
+.card-grid {
+  @media (max-width: $se-max) {
+    padding: 0;
+  }
+}
 .v-card {
   display: flex;
   flex-direction: column;
   &.v-sheet {
     border-radius: 5px;
+    @media (max-width: $se-max) {
+      border-radius: 0;
+    }
   }
   &.course {
     .v-image {
@@ -91,6 +136,7 @@
         font-size: 12px;
         color: $black-18-05;
         text-transform: uppercase;
+        padding-right: 50px;
         padding-bottom: 5px;
         &-title {
           display: block;
@@ -99,6 +145,12 @@
           font-size: 16px;
           line-height: 22px;
           color: $dark-grey;
+          padding-right: 50px;
+        }
+      }
+      &__link-details {
+        .v-btn__content {
+          color: $blue;
         }
       }
       &__info {
@@ -115,10 +167,25 @@
           display: block;
         }
       }
+      &__details {
+        display: block;
+        padding: 16px 0;
+      }
     }
   }
-  &-text {
-    padding: 14px 17px 17px;
+  &__text {
+    position: relative;
+    .course {
+      &__btn {
+        &-favourite {
+          top: 16px;
+          color: $orangish;
+          .v-icon {
+            font-size: 20px;
+          }
+        }
+      }
+    }
   }
   &__title {
     padding: 0 0 16px;
